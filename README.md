@@ -1,6 +1,7 @@
 ## Project Name:
 
-- HealthApp_1203: Build Health App using ReactJS version 17.0.2, typescript version 4.4.4. Also, includes Tailwindcss
+- HealthApp_1203: Build Health app based on ReactJS version ^17.0.2 and Typscript version ^4.4.4.\
+  And includes TailwindCss ^3.2.1 framework.
 
 # Getting Started with Create React App
 
