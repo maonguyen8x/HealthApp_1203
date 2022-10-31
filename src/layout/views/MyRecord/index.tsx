@@ -1,4 +1,4 @@
-import Button from "../../views/Button";
+import Button from "../../../components/Button";
 import Meal from "./_components/Meal";
 import Menu from "./_components/Menu";
 

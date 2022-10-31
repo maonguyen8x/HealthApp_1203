@@ -1,4 +1,4 @@
-import Button from "../Button";
+import Button from "../../../components/Button";
 import Article from "./_components/Article";
 import Categories from "./_components/Categories";
 
