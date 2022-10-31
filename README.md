@@ -7,26 +7,23 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# How to install:
+
+- npm install
+- yarn install
+
+- npx create-react-app health-app or yarn create react-app health-app
+
+## How to build && run project:
 
 In the project directory, you can run:
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.
-
-### `yarn eject`
-
-### `yarn build` fails to minify
+```bash
+ cd src/ directory
+  - yarn start
+  - yarn test
+  - yarn build
+```
 
 ### Install Tailwindcss:
 
