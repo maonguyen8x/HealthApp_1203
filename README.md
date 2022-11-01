@@ -6,26 +6,25 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## How to run && build:
 
 In the project directory, you can run:
 
-### `yarn start`
+`` `bash
+cd src/:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- yarn start: Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- yarn test: Launches the test runner in the interactive watch mode.
+- yarn build: Builds the app for production to the `build` folder.
+  ``
 
-### `yarn test`
+## How to edit/show data:
 
-Launches the test runner in the interactive watch mode.
+- Go to src/constant/index.ts
 
-### `yarn build`
+## How to change the Chart:
 
-Builds the app for production to the `build` folder.
-
-### `yarn eject`
-
-### `yarn build` fails to minify
+- Refresh the page every time then the data will be changed.
 
 ### Install Tailwindcss:
 
