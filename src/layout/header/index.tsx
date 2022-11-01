@@ -13,7 +13,9 @@ const Header = () => {
   return (
     <div className="w-full bg-gray1 h-16 fixed z-50">
       <div className="container row-between px-16">
-        <img src={images.logo} alt="logo" />
+        <NavLink to="/" className="center gap-3">
+          <img src={images.logo} alt="logo" />
+        </NavLink>
         <div className="row gap-16">
           <NavLink to="/my-record" className="center gap-3">
             <img src={images.icon_create} alt="icon_create" />
@@ -24,7 +26,12 @@ const Header = () => {
             <p className="text-base leading-6 text-white">{`チャレンジ`}</p>
           </NavLink>
           <NavLink to="/news" className="center gap-3">
-            <img src={images.icon_info} alt="icon_info" />
+            <div className="relative">
+              <img src={images.icon_info} alt="icon_info" />
+              <div className="absolute top-0 -right-2 w-4 h-4 rounded-full bg-orange2 center">
+                <p className="text-[10px] text-white leading-3 font-normal">{`1`}</p>
+              </div>
+            </div>
             <p className="text-base leading-6 text-white">{`お知らせ`}</p>
           </NavLink>
           <div className="center gap-3 cursor-pointer relative">

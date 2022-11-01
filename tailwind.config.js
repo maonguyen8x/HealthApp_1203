@@ -16,8 +16,7 @@ module.exports = {
 				},
 			},
 			boxShadow: {
-				menu: '5px 1px 12px rgba(0, 0, 0, 0.1)',
-				input: '7px 7px 25px rgba(0, 139, 255, 0.15)',
+				circle: '0px 0px 6px #FC7400;',
 			},
 			colors: {
 				// Use this tool for set name color

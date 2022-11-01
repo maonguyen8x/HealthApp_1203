@@ -1,10 +1,6 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: 'Noto Sans JP', sans-serif;
 }
 
 .letter-spacing-0125 {
@@ -16,20 +12,20 @@ body {
 .exercies::-webkit-scrollbar {
 	width: 6px;
 	border-radius: 3px;
-  }
-  
+}
+
   /* Track */
 .exercies::-webkit-scrollbar-track {
 	background: #777777; 
 	border-radius: 3px;
 }
-   
+
   /* Handle */
 .exercies::-webkit-scrollbar-thumb {
 	background: #FFCC21; 
 	border-radius: 3px;
 }
-  
+
   /* Handle on hover */
 .exercies::-webkit-scrollbar-thumb:hover {
 	cursor: pointer;
@@ -37,10 +33,14 @@ body {
 
 }
 
-#chart-line{
-	background: #414141 !important;
-	min-height: 310px !important;
+.circle-number {
+	text-shadow: 0px 0px 6px #FCA500;
 }
+
+tspan{
+	display: none !important;
+}
+
 
 @tailwind base;
 @tailwind components;
@@ -71,7 +71,7 @@ body {
 @layer components {}
 
 @layer utilities {
-  .yellow-gradient {
-    background: linear-gradient(180deg, #FFCC21 0%, #FF963C 100%);
-  }
+	.yellow-gradient {
+	background: linear-gradient(180deg, #FFCC21 0%, #FF963C 100%);
+	}
 }

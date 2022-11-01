@@ -1,4 +1,5 @@
 import images from "../images";
+import faker from "faker";
 
 const NEWS_DATA = [
   {
@@ -152,4 +153,76 @@ const RECOMMENT_DATA = [
   },
 ];
 
-export { MEMU_DATA, SUB_MENU, RECOMMENT_DATA, CHALLENGE_DATA, NEWS_DATA };
+const CHART_OPPTION = {
+  responsive: true,
+  maintainAspectRatio: false,
+  plugins: {
+    legend: {
+      display: false, //This will do the task
+    },
+    title: {
+      display: false,
+    },
+  },
+  legend: {
+    display: false,
+  },
+  scales: {
+    yAxes: {
+      grid: {
+        display: false,
+      },
+      ticks: {
+        display: false,
+      },
+    },
+    xAxes: {
+      grid: {
+        drawBorder: true,
+        color: "#FFFFFF",
+        borderColor: "#414141",
+      },
+      ticks: {
+        beginAtZero: false,
+        color: "#FFFFFF",
+        fontSize: 12,
+      },
+    },
+  },
+};
+
+const labels = [
+  "6 月",
+  "7 月",
+  "8 月",
+  "9 月",
+  "10 月",
+  "11 月",
+  "12 月",
+  "1 月",
+  "2 月",
+];
+
+const CHART_DATA = {
+  labels,
+  datasets: [
+    {
+      data: labels.map(() => faker.datatype.number({ min: 0, max: 100 })),
+      borderColor: "#FFCC21",
+    },
+    {
+      data: labels.map(() => faker.datatype.number({ min: 0, max: 100 })),
+      borderColor: "#8FE9D0",
+    },
+  ],
+};
+
+export {
+  MEMU_DATA,
+  SUB_MENU,
+  RECOMMENT_DATA,
+  CHALLENGE_DATA,
+  NEWS_DATA,
+  CHART_OPPTION,
+  CHART_DATA,
+};
