@@ -9,14 +9,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## How to run && build:
 
 In the project directory, you can run:
-
-`` `bash
 cd src/:
 
-- yarn start: Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-- yarn test: Launches the test runner in the interactive watch mode.
-- yarn build: Builds the app for production to the `build` folder.
-  ``
+```bash
+
+  - yarn install
+  - yarn start: Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  - yarn test: Launches the test runner in the interactive watch mode.
+  - yarn build: Builds the app for production to the `build` folder.
+```
 
 ## How to edit/show data:
 
@@ -32,3 +33,7 @@ cd src/:
 
   - npm install -D tailwindcss
   - npx tailwindcss init
+
+```
+
+```
