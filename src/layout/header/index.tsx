@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from "react";
-import images from "../../images";
+import images from "../../frontend-images";
 import { NavLink } from "react-router-dom";
 import { SUB_MENU } from "../../constant";
 

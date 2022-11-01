@@ -1,4 +1,4 @@
-import images from "../../images";
+import images from "../../frontend-images";
 import Chart from "../../components/Chart";
 // @ts-ignore
 import { CircularProgressBar } from "@tomik23/react-circular-progress-bar";
