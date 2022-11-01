@@ -1,5 +1,5 @@
 import React, { ReactChild, useCallback } from "react";
-import images from "../images";
+import images from "../frontend-images";
 import Banner from "./banner";
 import Footer from "./footer";
 import Header from "./header";

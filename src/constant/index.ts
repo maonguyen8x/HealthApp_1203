@@ -1,4 +1,4 @@
-import images from "../images";
+import images from "../frontend-images";
 import faker from "faker";
 
 const NEWS_DATA = [
