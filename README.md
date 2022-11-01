@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## How to run && build:
 
-In the project directory, you can run:
+In the project directory, you can run:\
 cd src/:
 
 ```bash
