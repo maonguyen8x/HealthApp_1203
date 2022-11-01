@@ -2,9 +2,9 @@
 
 - HealthApp_1203: Build Health App using ReactJS version 17.0.2, typescript version 4.4.4. Also, includes Tailwindcss
 
-  ![Screenshot](src\images\column-1.png\my_page_1.png)\
-  ![Screenshot](src\images\column-1.png\my_page_2.png)\
-  ![Screenshot](src\images\column-1.png\my_page_3.png)
+  ![Optional Text](src\images\column-1.png\my_page_1.png)\
+  ![Optional Text](src\images\column-1.png\my_page_2.png)\
+  ![Optional Text](src\images\column-1.png\my_page_3.png)
 
 # Getting Started with Create React App
 
